@@ -13,7 +13,7 @@ The lab environment utilizes a Mininet topology where the perimeter defense (R1)
 * [View Network Topology Diagram](Evidence/Capture_01.png)
 
 ### 2.2 Initial Traffic and Detection
-The analyst, simulating a user on **H5** (Internal Users), executes a malicious file download.
+The analyst, simulating a user on **H5** (DMZ Server), executes a malicious file download.
 * **Initial Access:** The `wget` command successfully downloads the malicious file (`W32.Nimda.Amm.exe`), confirming the communication path before any blocking action. [View Wget Successful Download](Evidence/Capture_02.png)
 * **Real-Time Monitoring:** **Snort IDS** runs on the perimeter router (R1), monitoring traffic. The download event immediately triggers an alert.
     * [View Snort Real-Time Alert Log (Tail Output)](Evidence/Capture_03.png)
