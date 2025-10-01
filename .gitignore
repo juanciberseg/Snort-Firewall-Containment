@@ -1,0 +1,21 @@
+# -------------------------------------------------------------------
+# Operating System Specific Files (Linux)
+# -------------------------------------------------------------------
+# Ignore temporary files created by editors
+*~
+\#*#
+
+# Mac OS specific
+.DS_Store
+
+# -------------------------------------------------------------------
+# Editor and Environment Files (VS Code)
+# -------------------------------------------------------------------
+.vscode/
+
+# -------------------------------------------------------------------
+# Lab Artifacts
+# -------------------------------------------------------------------
+# Ignore large packet capture files (pcap) to keep the repository small
+# and prevent public exposure of network data.
+*.pcap
