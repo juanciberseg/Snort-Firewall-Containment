@@ -2,8 +2,7 @@
 # Operating System Specific Files (Linux)
 # -------------------------------------------------------------------
 # Ignore temporary files created by editors
-*~
-\#*#
+
 
 # Mac OS specific
 .DS_Store
